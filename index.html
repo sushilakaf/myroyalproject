@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Royal Jungle Villas</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+  <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top shadow-sm px-4 py-2">
+      <div class="d-flex align-items-center gap-3">
+        <a href="#" class="d-flex align-items-center text-decoration-none">
+          <img
+            src="assets/logo.jpeg"
+            class="logo-image"
+            alt="Royal Jungle Villas Logo"
+          />
+          
+        </a>
+      </div>
+      
+      <div class="d-none d-md-flex align-items-center gap-4 nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#amenities" class="nav-link">Amenities</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-gold">Book Now</a>
+      </div>
+      <button class="btn btn-gold d-md-none">Book</button>
+    </nav>
+    <div class="border border-2 border-success"></div>
+
+    <!-- Hero Carousel -->
+    <div
+      id="heroCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div
+          class="carousel-item active"
+          style="
+            background-image: url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg');
+          "
+        >
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100"
+          >
+            <h1 class="ml2 text-white text-center">Welcome to Royal Jungle Villas</h1>
+            <p class="lead text-white-50 mt-2 text-center w-75 mx-auto">
+              Experience serenity amidst nature with boutique villas, curated safaris, and warm hospitality.
+            </p>
+            
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('https://images.pexels.com/photos/3601426/pexels-photo-3601426.jpeg');
+          "
+        ></div>
+
+        <!-- Slide 3 -->
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('https://images.pexels.com/photos/33639471/pexels-photo-33639471.jpeg');
+          "
+        ></div>
+
+        <!-- Slide 4 -->
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('https://images.pexels.com/photos/31436467/pexels-photo-31436467.jpeg');
+          "
+        ></div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <i class="fa-solid fa-trees"></i>
+        <h2 class="section-title">About Us</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- About -->
+    <section id="about" class="section section-dark">
+      <div class="container py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-text mt-3">
+              Nestled on the edge of the jungle, Royal Jungle Villas offers a refined escape where luxury meets wilderness. Our villas feature elegant interiors, private sit-outs, and thoughtful amenities designed for comfort and calm.
+            </p>
+            <p class="section-text">
+              Whether you're here for a peaceful retreat or an adventurous safari, our team crafts memorable experiences inspired by local culture and nature.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/entrance.jpeg" class="img-fluid rounded-4 shadow" alt="Resort Entrance"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities -->
+    <section id="amenities" class="section">
+      <div class="container py-5">
+        <h2 class="section-title text-center">Amenities</h2>
+        <p class="text-center text-muted mb-4">Thoughtfully curated comforts for an effortless stay</p>
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🛏️</div>
+              <div class="amenity-title">Boutique Villas</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🌿</div>
+              <div class="amenity-title">Jungle Views</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🍽️</div>
+              <div class="amenity-title">Local Cuisine</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🦌</div>
+              <div class="amenity-title">Safari Assistance</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">📶</div>
+              <div class="amenity-title">High-speed Wi‑Fi</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🚘</div>
+              <div class="amenity-title">Airport Pickup</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🏊</div>
+              <div class="amenity-title">Plunge Pool</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-card">
+              <div class="amenity-icon">🔥</div>
+              <div class="amenity-title">Bonfire Evenings</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section section-dark">
+      <div class="container py-5">
+        <h2 class="section-title text-center">Gallery</h2>
+        <p class="text-center text-muted mb-4">A glimpse into our world</p>
+        <div class="row g-3 gallery-grid">
+          <div class="col-6 col-md-4">
+            <img src="assets/WhatsApp Image 2025-08-28 at 12.29.31.jpeg" class="img-fluid rounded-4" alt="Gallery 1">
+          </div>
+          <div class="col-6 col-md-4">
+            <img src="assets/WhatsApp Image 2025-08-28 at 12.29.32.jpeg" class="img-fluid rounded-4" alt="Gallery 2">
+          </div>
+          <div class="col-6 col-md-4">
+            <img src="assets/WhatsApp Image 2025-08-28 at 12.29.33.jpeg" class="img-fluid rounded-4" alt="Gallery 3">
+          </div>
+          <div class="col-6 col-md-4">
+            <img src="assets/WhatsApp Image 2025-08-28 at 12.29.33 (1).jpeg" class="img-fluid rounded-4" alt="Gallery 4">
+          </div>
+          <div class="col-6 col-md-4">
+            <img src="assets/WhatsApp Image 2025-08-28 at 12.29.34.jpeg" class="img-fluid rounded-4" alt="Gallery 5">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container py-5">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-6">
+            <h2 class="section-title">Contact & Location</h2>
+            <p class="section-text mt-3">
+              Royal Jungle Villas, Near National Park Gate, Wilderness Road
+            </p>
+            <div class="mt-2">
+              <div><strong>Phone:</strong> <a href="tel:+911234567890" class="link-light text-decoration-none">+91 12345 67890</a></div>
+              <div><strong>Email:</strong> <a href="mailto:stay@royaljunglevillas.com" class="link-light text-decoration-none">stay@royaljunglevillas.com</a></div>
+            </div>
+            <a href="https://wa.me/911234567890" target="_blank" class="btn btn-gold mt-3">WhatsApp Us</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31518.257!2d0!3d0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2z!5e0!3m2!1sen!2s!4v1710000000000"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Map"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 text-center text-white-50">
+      <div class="container">
+        <small>© <span id="year"></span> Royal Jungle Villas. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/911234567890" target="_blank" class="whatsapp-float" aria-label="WhatsApp Chat">
+      <img src="assets/" alt="Chat" />
+    </a>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
