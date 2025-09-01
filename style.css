@@ -507,6 +507,12 @@ body {
   #explore .btn-custom {
     margin-top: 1rem;
   }
+  #explore .carousel-item{
+  height: 100vh !important;
+}
+.overlap-image{
+  display:none;
+}
 
   #explore .image-side img {
     max-height: 250px;
