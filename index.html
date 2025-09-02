@@ -18,6 +18,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -32,7 +33,7 @@
   <div class="d-flex align-items-center gap-3">
     <a href="#" class="d-flex align-items-center text-decoration-none">
       <img
-        src="assets/logo.jpeg"
+        src="assets/mainlogo.jpeg"
         class="logo-image"
         alt="Royal Jungle Villas Logo"
       />
@@ -188,20 +189,20 @@
       <div class="container py-5">
         <div class="row align-items-center g-4">
           <div class="col-md-6">
-            <p class="text-dark about-subtitle">About us</p>
-            <h2 class="section-title">A Royal Jungle Villas Welcome, <br>EveryTime</h2>
-            <p class="section-text mt-3">
+            <p class="text-dark about-subtitle" data-aos="fade-right">About us</p>
+            <h2 class="section-title"data-aos="fade-up">A Royal Jungle Villas Welcome, <br>EveryTime</h2>
+            <p class="section-text mt-3" data-aos="fade-right">
               Nestled on the edge of the jungle, Royal Jungle Villas offers a
               refined escape where luxury meets wilderness. Our villas feature
               elegant interiors, private sit-outs, and thoughtful amenities
               designed for comfort and calm.
             </p>
-            <p class="section-text">
+            <p class="section-text" data-aos="fade-right">
               Whether you're here for a peaceful retreat or an adventurous
               safari, our team crafts memorable experiences inspired by local
               culture and nature.
             </p>
-            <button class="btn btn-custom text-dark fw-bold">Explore more</button>
+            <button class="btn btn-custom  fw-bold">Explore more</button>
           </div>
           <div class="col-md-5 position-relative">
             <div class="image-container">
@@ -226,14 +227,14 @@
     <!-- Amenities -->
     <section id="amenities" class="section">
       <div class="container py-5">
-        <h2 class="section-title text-center" style="color:#dba658">Amenities</h2>
+        <h2 class="section-title text-center text-white">Amenities</h2>
         <p class="text-center text-white mb-4">
           Thoughtfully curated comforts for an effortless stay
         </p>
         <div class="row g-4">
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon">
+              <div class="amenity-icon"data-aos="zoom-in">
                 <i class="fas fa-bed fa-2x" style="color:#dba658"></i>
               </div>
               <div class="amenity-title">Boutique Villas</div>
@@ -241,45 +242,45 @@
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-tree fa-2x" style="color:#dba658"></i></div>
+              <div class="amenity-icon" data-aos="zoom-in"><i class="fas fa-tree fa-2x" style="color:#dba658"></i></div>
               <div class="amenity-title">Jungle Views</div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-utensils fa-2x" style="color:#dba658"></i>
+              <div class="amenity-icon" data-aos="zoom-in"><i class="fas fa-utensils fa-2x" style="color:#dba658"></i>
               </i></div>
               <div class="amenity-title">Local Cuisine</div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-car fa-2x" style="color:#dba658"></i></div>
+              <div class="amenity-icon" data-aos="zoom-in"><i class="fas fa-car fa-2x" style="color:#dba658"></i></div>
               <div class="amenity-title">Safari Assistance</div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-wifi fa-2x" style="color:#dba658"></i>
+              <div class="amenity-icon" data-aos="zoom-in"><i class="fas fa-wifi fa-2x" style="color:#dba658"></i>
               </div>
               <div class="amenity-title">High-speed Wi‑Fi</div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-parking fa-2x" style="color:#dba658"></i></div>
+              <div class="amenity-icon" data-aos="zoom-in"><i class="fas fa-parking fa-2x" style="color:#dba658"></i></div>
               <div class="amenity-title">Free Parking</div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-swimming-pool fa-2x"style="color:#dba658"></i></div>
+              <div class="amenity-icon" data-aos="zoom-in"><i class="fas fa-swimming-pool fa-2x"style="color:#dba658"></i></div>
               <div class="amenity-title">Plunge Pool</div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="amenity-card">
-              <div class="amenity-icon"><i class="fas fa-fire fa-2x"style="color:#dba658"></i></div>
+              <div class="amenity-icon"data-aos="zoom-in"><i class="fas fa-fire fa-2x"style="color:#dba658"></i></div>
               <div class="amenity-title">Bonfire Evenings</div>
             </div>
           </div>
@@ -301,7 +302,12 @@
                   <img src="assets/WhatsApp Image 2025-08-28 at 12.29.33.jpeg" class="card-img-top" alt="Cabin Image">
                   <div class="card-body text-left">
                     <h5 class="card-title fw-bold">Deluxe Double Room</h5>
-                    <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare sit amet lacus fermentum tincidunt.</p>
+                  <p class="d-flex gap-2 text-muted">
+  <i class="fas fa-wifi aminities-icon" title="WiFi"></i>&nbsp;
+<i class="fa-solid fa-bottle-water aminities-icon"></i></i>&nbsp;
+  <i class="fas fa-tv aminities-icon" title="TV"></i>&nbsp;
+  <i class="fas fa-lock aminities-icon" title="Safe"></i>
+</p>
                     <a href="#" class="btn btn-custom">BOOK NOW</a>
                   </div>
                 </div>
@@ -312,7 +318,12 @@
                   <img src="assets/WhatsApp Image 2025-08-28 at 12.29.31.jpeg" class="card-img-top" alt="Cabin Image">
                   <div class="card-body text-left">
                     <h5 class="card-title fw-bold">Super deluxe</h5>
-                    <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare sit amet lacus fermentum tincidunt.</p>
+                   <p class="d-flex gap-2 text-muted">
+  <i class="fas fa-wifi aminities-icon" title="WiFi"></i>&nbsp;
+<i class="fa-solid fa-bottle-water aminities-icon"></i></i>&nbsp;
+  <i class="fas fa-tv aminities-icon" title="TV"></i>&nbsp;
+  <i class="fas fa-lock aminities-icon" title="Safe"></i>
+</p>
                     <a href="#" class="btn btn-custom">BOOK NOW</a>
                   </div>
                 </div>
@@ -323,7 +334,12 @@
                   <img src="assets/WhatsApp Image 2025-08-28 at 12.29.33 (1).jpeg" class="card-img-top" alt="Cabin Image">
                   <div class="card-body text-left">
                     <h5 class="card-title fw-bold">Single Room</h5>
-                    <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare sit amet lacus fermentum tincidunt.</p>
+                    <p class="d-flex gap-2 text-muted">
+  <i class="fas fa-wifi aminities-icon" title="WiFi"></i>&nbsp;
+<i class="fa-solid fa-bottle-water aminities-icon"></i></i>&nbsp;
+  <i class="fas fa-tv aminities-icon" title="TV"></i>&nbsp;
+  <i class="fas fa-lock aminities-icon" title="Safe"></i>
+</p>
                     <a href="#" class="btn btn-custom">BOOK NOW</a>
                   </div>
                 </div>
@@ -375,37 +391,45 @@
       </div>
     </div>
   </div>
-  <div class="container  p-5 d-none d-sm-block">
+  <div class="container mx-auto p-5">
   <div class="row justify-content-center text-center">
-    <div class="col-6 mb-3">
-      <h3 class="text-dark">You can book from here</h3>
-      <p class="text-muted">you can visite our website</p>
+   
+    <div class="col-12 col-md-6 mb-3"data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+      <h3 class="" style="color: #198754;">You can book from here</h3>
+      <p class="text-muted">You can visit our website</p>
     </div>
-    <div class="col-6 d-flex gap-3">
-      <img src="assets/booking1.png" alt="Booking.com Logo" class="booking-logo">
-      <img src="assets/makemytrip.png" alt="MakeMyTrip Logo" class="booking-logo">
+
+    
+    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center gap-3 flex-wrap"data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+      <img src="assets/booking1.png" alt="Booking.com Logo" class="booking-logo img-fluid" style="max-height: 60px;">
+      <img src="assets/makemytrip.png" alt="MakeMyTrip Logo" class="booking-logo img-fluid" style="max-height: 60px;">
     </div>
   </div>
 </div>
+
 </section>
 
 
 
-<footer id="footer" style="background-color: #FFF3CD;   overflow: hidden; z-index: 1;">
+<footer id="footer" style="background-color: #FFF3CD;   overflow: hidden;">
   <div class="container-fluid p-0 position-relative" style="position: relative;">
     
    
-    <img src="assets/footermain.png" alt="Footer Image" 
+    <img src="assets/Green and White Grunge Travel and Tourism Instagram Post.png" alt="Footer Image" 
          class="img-fluid w-100 h-100" 
          style="object-fit: cover; object-position: center;">
 
-  <div class="custom-footer position-absolute start-50 translate-middle w-100 py-4" style="top:79%; z-index: 2;">
+  <div class="custom-footer  w-100 py-4" style="background-color: #000;">
   <div class="container mx-auto">
     <div class="row text-white align-items-center text-center">
       
       <!-- Left Column -->
       <div class="col-12 col-md-4 mb-4 mb-md-0">
-        <h4 class="border-bottom pb-2 d-inline-block text-white" style="border-color: #fff;">Royal Jungle Villas</h4>
+        <h4 class="border-bottom pb-2 d-inline-block text-white" style="border-color: #AAB1A3;">Royal Jungle Villas</h4>
       </div>
 
       <!-- Middle Column -->
@@ -461,6 +485,7 @@
     </a>
 
     <!-- Scripts -->
+     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
@@ -468,5 +493,9 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+      AOS.init();
+    </script>
   </body>
 </html>

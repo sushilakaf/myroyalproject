@@ -7,12 +7,12 @@ html {
 
 /* Theme */
 :root {
-  --bg-dark: #0e1111;
+  --bg-dark: #344b21;
   --bg-darker: #0a0c0c;
   --text: #f5f5f5;
   --muted: #9aa0a6;
-  --gold: #f5c459;
-  --card: #15191a;
+  --gold: #198754;
+  --card: #2A3C1A;
   --card-border: #22292b;
   --optional: #4cc75a;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .logo-image {
-  height: 48px;
+  height: 58px;
   object-fit: contain;
   margin-left: 10px;
 }
@@ -132,7 +132,7 @@ body {
 .section-title {
   font-size: 2rem;
   font-weight: 800;
-  color: var(--bg-dark);
+  color: var(--gold);
 }
 .section-text {
   color: var(--muted);
@@ -209,7 +209,7 @@ body {
 
 /* About Section Styling */
 .about-section {
-  background: linear-gradient(135deg, #fbf1e7 0%, #f5e6d3 50%, #fbf1e7 100%);
+  background: linear-gradient(135deg, #FBF1E7 0%, #f5e6d3 50%, #fbf1e7 100%);
   position: relative;
   overflow: hidden;
 }
@@ -340,7 +340,7 @@ body {
 .section-title {
   font-size: 2rem;
   font-weight: 800;
-  color: var(--bg-dark);
+  color: var(--gold);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: color 0.3s ease;
 }
@@ -369,7 +369,7 @@ body {
   top: 42px;
   right: -50px;
   width: 213px;
-  background: #000;
+  background: #344B21;
   color: white;
   text-align: center;
   line-height: 30px;
@@ -384,7 +384,7 @@ body {
 }
 
 .btn-custom {
-  background-color: #f5c459;
+  background-color: #344B21;
   color: white;
   padding: 8px 20px;
   text-decoration: none;
@@ -468,9 +468,9 @@ body {
 }
 
 #explore .btn-custom {
-  background-color: #f5c459;
+  background-color: #2A3C1A;
   border: none;
-  color: #000;
+  color: #fff;
   padding: 10px 20px;
   font-weight: bold;
   border-radius: 5px;
@@ -508,7 +508,7 @@ body {
     margin-top: 1rem;
   }
   #explore .carousel-item{
-  height: 100vh !important;
+  height: 55vh !important;
 }
 .overlap-image{
   display:none;
@@ -523,7 +523,7 @@ body {
   height: 80px;
   object-fit: contain; 
   border-radius: 10px;
-  background-color: white;
+  background-color: #344b21;
   padding: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -553,4 +553,8 @@ body {
   .custom-footer h4 {
     text-align: left;
   }
+}
+.aminities-icon{
+  font-size: 20px;
+  color:#198754;
 }
