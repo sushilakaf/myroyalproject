@@ -135,7 +135,7 @@ body {
   color: var(--gold);
 }
 .section-text {
-  color: var(--muted);
+  color: #344b21;
   line-height: 1.8;
 }
 .section-yellow {
@@ -350,13 +350,13 @@ body {
 }
 
 .section-text {
-  color: var(--muted);
+  color:#000;
   line-height: 1.8;
   transition: color 0.3s ease;
 }
 
 .section-text:hover {
-  color: #d4d4d4;
+  color: var(--gold);
 }
 .card {
   border: none;
