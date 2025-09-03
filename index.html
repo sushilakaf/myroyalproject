@@ -24,6 +24,8 @@
 
     <!-- Bootstrap Bundle JS (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -421,7 +423,7 @@
             <div class="row w-100 justify-content-center align-items-center">
                 <!-- Left image -->
                 <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center py-4 reorder-md-1">
-                    <div class="image-container">
+                    <div class="image-contain">
                         <img src="assets/White Modern Hotel and Resort Instagram Post (1).png" alt="Hotel Image" class="img-fluid">
                     </div>
                 </div>
@@ -451,15 +453,99 @@
                 
                 <!-- Right image -->
                 <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center py-4 reorder-md-2">
-                    <div class="image-container">
+                    <div class="image-contain">
                         <img src="assets/White Modern Hotel and Resort Instagram Post (1).png" alt="Hotel Image" class="img-fluid">
  </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- testimonial -->
+ <div class="demo"style="background-color:#FFF3CD">
+    <div class="container">
+      <h2 class="section-title  text-center">What Our Customers Say
+</h2>
+        <p class="text-center text-muted mb-4">A glimpse into our world</p>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">Kristina</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="map-info-wrapper">
+  <!-- Map Side -->
+  <div class="map-side">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d904470.950905096!2d84.25613607811195!3d27.683623854488754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994ef8914921f19%3A0x20713ea2bfc0e149!2sRoyal%20Jungle%20Villas%20Resort!5e0!3m2!1sen!2snp!4v1756894293877!5m2!1sen!2snp" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
 
-
+  <!-- Info Side -->
+  <div class="info-side">
+    <h2><img src="assets/mainlogo.png" style="width:100px"></i> Royal Jungle Villas Resort</h2>
+    <p><i class="fas fa-map-marker-alt"></i> Located in the heart of Chitwan, surrounded by nature.</p>
+    <p><i class="fas fa-bed"></i> Comfortable jungle villas with modern amenities.</p>
+    <p><i class="fas fa-paw"></i> Perfect for wildlife lovers and adventure seekers.</p>
+    <p><i class="fas fa-phone-alt"></i> Contact: +977-1234567890</p>
+    <p><i class="fas fa-globe"></i> Website: www.royaljungleresort.com</p>
+  </div>
+</div>
+<!-- footer -->
 <footer id="footer" style="background-color: #FFF3CD;   overflow: hidden;">
   <div class="container-fluid p-0 position-relative" style="position: relative;">
     
@@ -530,7 +616,24 @@
     </a>
 
     <!-- Scripts -->
-     
+     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+
+</script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
@@ -542,5 +645,6 @@
             <script>
       AOS.init();
     </script>
+   
   </body>
 </html>
