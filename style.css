@@ -384,7 +384,7 @@ body {
   width: 80px;
   height: 80px;
   object-fit: contain;
-  padding: 10px;
+  padding: 6px;
  
   transition: transform 0.3s ease;
 }
@@ -523,9 +523,7 @@ body {
 }
 
 .logo-container {
-
   display: inline-block;
-  
   transition: all 0.3s ease;
 }
 
